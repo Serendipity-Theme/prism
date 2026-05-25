@@ -1,0 +1,36 @@
+/* Serendipity Serendipity Morning for Prism.js */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #3f4363;
+  background: #f6f7fb;
+}
+.token.comment, .token.prolog, .token.doctype, .token.cdata {
+  color: #6d7296;
+  font-style: italic;
+}
+.token.keyword, .token.atrule, .token.tag, .token.selector {
+  color: #2f7aab;
+}
+.token.string, .token.char, .token.attr-value {
+  color: #785fd0;
+}
+.token.function, .token.class-name {
+  color: #c25a4d;
+  font-style: italic;
+}
+.token.number, .token.boolean, .token.constant {
+  color: #2f7aab;
+}
+.token.operator, .token.punctuation {
+  color: #505575;
+}
+.token.variable {
+  color: #e58678;
+  font-style: italic;
+}
+.token.property, .token.builtin {
+  color: #6288d8;
+}
+.token.deleted {
+  color: #c25a4d;
+}

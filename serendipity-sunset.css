@@ -1,0 +1,36 @@
+/* Serendipity Serendipity Sunset for Prism.js */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #dee0ef;
+  background: #202231;
+}
+.token.comment, .token.prolog, .token.doctype, .token.cdata {
+  color: #8d8f9e;
+  font-style: italic;
+}
+.token.keyword, .token.atrule, .token.tag, .token.selector {
+  color: #709bbd;
+}
+.token.string, .token.char, .token.attr-value {
+  color: #a392dc;
+}
+.token.function, .token.class-name {
+  color: #d1918f;
+  font-style: italic;
+}
+.token.number, .token.boolean, .token.constant {
+  color: #709bbd;
+}
+.token.operator, .token.punctuation {
+  color: #6b6d7c;
+}
+.token.variable {
+  color: #d6b4b4;
+  font-style: italic;
+}
+.token.property, .token.builtin {
+  color: #a0b6e8;
+}
+.token.deleted {
+  color: #d1918f;
+}
